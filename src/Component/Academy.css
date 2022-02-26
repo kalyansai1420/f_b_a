@@ -1,0 +1,34 @@
+.container{
+    
+    padding-top: 20px;
+    max-width: 1200px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.admin_cards_grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1200px;
+    align-items: center;
+    margin: 0 auto;
+}
+.admin_cards_lists{
+    display: flex;
+    flex-direction: column;
+      
+}
+.buttongroup{
+   
+    margin-bottom: 20px;
+}
+@media only screen and (max-width: 500px) {
+    .buttongroup{
+        display: none;
+    }
+    .admin_cards_grid{
+        flex-direction: column;
+    }
+    
+}

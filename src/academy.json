@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "img": "https://firebasestorage.googleapis.com/v0/b/boxing-50350.appspot.com/o/grid1.jpg?alt=media&token=259d5757-c4f4-4169-b93a-95dd302c5a14",
+    "title": "RK Boxing Center",
+    "desc": "one popular form of kickboxing is known as aerobic or cardiovascular (cardio) kickboxing, which combines elements of boxing, martial arts, and aerobics to provide overall physical conditioning and toning. Unlike other types of kickboxing, cardio kickboxing does not involve physical contact between competitors.",
+    "ratings": "5",
+    "place": "Hyderabad",
+    "fee": "5000",
+    "pincode": "500478"
+  },
+  {
+    "id": 2,
+    "img": "https://firebasestorage.googleapis.com/v0/b/boxing-50350.appspot.com/o/grid1.jpg?alt=media&token=259d5757-c4f4-4169-b93a-95dd302c5a14",
+    "title": "Kick Boxing Academy",
+    "desc": "one popular form of kickboxing is known as aerobic or cardiovascular (cardio) kickboxing, which combines elements of boxing, martial arts, and aerobics to provide overall physical conditioning and toning. Unlike other types of kickboxing, cardio kickboxing does not involve physical contact between competitors.",
+    "ratings": 5,
+    "place": "Hyderabad",
+    "fee": "5000",
+    "pincode": "500478"
+  },
+  {
+    "id": 3,
+    "img": "https://firebasestorage.googleapis.com/v0/b/boxing-50350.appspot.com/o/grid1.jpg?alt=media&token=259d5757-c4f4-4169-b93a-95dd302c5a14",
+    "title": "SK Boxing Center",
+    "desc": "one popular form of kickboxing is known as aerobic or cardiovascular (cardio) kickboxing, which combines elements of boxing, martial arts, and aerobics to provide overall physical conditioning and toning. Unlike other types of kickboxing, cardio kickboxing does not involve physical contact between competitors.",
+    "ratings": "5",
+    "place": "Hyderabad",
+    "fee": "5000",
+    "pincode": "500478"
+  }
+]

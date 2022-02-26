@@ -1,0 +1,102 @@
+[
+  {
+    "academy_id": 1,
+    "courses":[{
+      "id": 1,
+      "title": "Strength traning",
+      "desc": "one popular form of kickboxing is known as aerobic or cardiovascular (cardio) kickboxing, which combines elements of boxing, martial arts, and aerobics to provide overall physical conditioning and toning. Unlike other types of kickboxing, cardio kickboxing does not involve physical contact between competitors.",
+      "ratings": 5,
+      "duration":"3 months",
+      "time":"6am to 6pm",
+      "enrolled count":222,
+      "academy":"RK Boxing Center"
+    },
+    {
+      "id": 2,
+      "title": "Strength traning",
+      "desc": "one popular form of kickboxing is known as aerobic or cardiovascular (cardio) kickboxing, which combines elements of boxing, martial arts, and aerobics to provide overall physical conditioning and toning. Unlike other types of kickboxing, cardio kickboxing does not involve physical contact between competitors.",
+      "ratings": 5,
+      "duration": "3 months",
+      "time": "6am to 6pm",
+      "enrolled count": 222,
+      "academy": "RK Boxing Center"
+    },
+    {
+      "id": 3,
+      "title": "Strength traning",
+      "desc": "one popular form of kickboxing is known as aerobic or cardiovascular (cardio) kickboxing, which combines elements of boxing, martial arts, and aerobics to provide overall physical conditioning and toning. Unlike other types of kickboxing, cardio kickboxing does not involve physical contact between competitors.",
+      "ratings": 5,
+      "duration": "3 months",
+      "time": "6am to 6pm",
+      "enrolled count": 222,
+      "academy": "RK Boxing Center"
+    }]
+  },
+  {
+    "academy_id": 2,
+    "courses":[{
+      "id": 1,
+      "title": "Strength traning",
+      "desc": "one popular form of kickboxing is known as aerobic or cardiovascular (cardio) kickboxing, which combines elements of boxing, martial arts, and aerobics to provide overall physical conditioning and toning. Unlike other types of kickboxing, cardio kickboxing does not involve physical contact between competitors.",
+      "ratings": 5,
+      "duration": "3 months",
+      "time": "6am to 6pm",
+      "enrolled count": 222,
+      "academy": "Kick Boxing Academy"
+    },
+    {
+      "id": 2,
+      "title": "Strength traning",
+      "desc": "one popular form of kickboxing is known as aerobic or cardiovascular (cardio) kickboxing, which combines elements of boxing, martial arts, and aerobics to provide overall physical conditioning and toning. Unlike other types of kickboxing, cardio kickboxing does not involve physical contact between competitors.",
+      "ratings": 5,
+      "duration": "3 months",
+      "time": "6am to 6pm",
+      "enrolled count": 222,
+      "academy": "Kick Boxing Academy"
+    },
+    {
+      "id": 3,
+      "title": "Strength traning",
+      "desc": "one popular form of kickboxing is known as aerobic or cardiovascular (cardio) kickboxing, which combines elements of boxing, martial arts, and aerobics to provide overall physical conditioning and toning. Unlike other types of kickboxing, cardio kickboxing does not involve physical contact between competitors.",
+      "ratings": 5,
+      "duration": "3 months",
+      "time": "6am to 6pm",
+      "enrolled count": 222,
+      "academy": "Kick Boxing Academy"
+    }]
+  },
+  {
+    "academy_id": 3,
+    "courses":[{
+      "id": 1,
+      "title": "Strength traning",
+      "desc": "one popular form of kickboxing is known as aerobic or cardiovascular (cardio) kickboxing, which combines elements of boxing, martial arts, and aerobics to provide overall physical conditioning and toning. Unlike other types of kickboxing, cardio kickboxing does not involve physical contact between competitors.",
+      "ratings": 5,
+      "duration": "3 months",
+      "time": "6am to 6pm",
+      "enrolled count": 222,
+      "academy": "SK Boxing Center"
+    },
+    {
+      "id": 2,
+      "title": "Strength traning",
+      "desc": "one popular form of kickboxing is known as aerobic or cardiovascular (cardio) kickboxing, which combines elements of boxing, martial arts, and aerobics to provide overall physical conditioning and toning. Unlike other types of kickboxing, cardio kickboxing does not involve physical contact between competitors.",
+      "ratings": 5,
+      "duration": "3 months",
+      "time": "6am to 6pm",
+      "enrolled count": 222,
+      "academy": "SK Boxing Center"
+    },
+    {
+      "id": 3,
+      "title": "Strength traning",
+      "desc": "one popular form of kickboxing is known as aerobic or cardiovascular (cardio) kickboxing, which combines elements of boxing, martial arts, and aerobics to provide overall physical conditioning and toning. Unlike other types of kickboxing, cardio kickboxing does not involve physical contact between competitors.",
+      "ratings": 5,
+      "duration": "3 months",
+      "time": "6am to 6pm",
+      "enrolled count": 222,
+      "academy": "SK Boxing Center"
+    }]
+  }
+  
+]
