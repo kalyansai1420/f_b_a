@@ -38,7 +38,9 @@ const Course = () => {
             </Media>
 
             <div className='admin_cards'
-                className={viewType == 'list' ? 'admin_cards_lists' : 'admin_cards_grid'}>
+                className={viewType === 'list' ? 'admin_cards_lists' : 'admin_cards_grid'}>
+                
+                <h1>Courses</h1>
                 {
                     data.map((lists) => {
                         return (

@@ -17,12 +17,12 @@ const Card = (props) => {
     
 
     return (
-        <div className={ isListView==true?'card_list':'card_grid'}>
+        <div className={ isListView===true?'card_list':'card_grid'}>
             <div className="card_img">
                 <img src={lists.img} alt="" />
             </div>
             <div 
-                className={isListView == true ? 'card_details_list' : 'card_details_grid'}
+                className={isListView === true ? 'card_details_list' : 'card_details_grid'}
             >
                 <h3>{lists.title}</h3>
                 <p>{lists.desc}</p>
@@ -43,7 +43,7 @@ const Card = (props) => {
             
             <div className="card_btn">
                 {
-                    location.pathname == '/admin' ?
+                    location.pathname === '/admin' ?
                         <ButtonGroup variant="contained">
                             <Button variant="contained" size="small" color="success">
                                 Edit
@@ -51,12 +51,12 @@ const Card = (props) => {
                             <Button variant="contained" size="small" color="error">
                                 Delete
                             </Button>
-                            </ButtonGroup> :
-                            location.pathname == '/student' ?
+                        </ButtonGroup> :
+                    location.pathname === '/student' ?
                         <Button variant="contained" size="small" color="success">
-                            View Courses
-                                </Button> :
-                                location.pathname == ""
+                                View Courses
+                        </Button> :
+                    location.pathname === ""
 
 
                 }

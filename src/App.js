@@ -3,32 +3,38 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Admin from './Pages/Admin';
 import Student from './Pages/Student';
-import Navbar from './Components/Navbar';
-import Cards from './Components/Card';
 import Course from './Component/Course';
+import Login from './Pages/Login';
+import NotFound from './Pages/NotFound';
+import Register from './Pages/Register';
 
 function App() {
 
-  
+
 
 
   return (
     <div className="app">
-      <h1>Login</h1>
-        <Router>
-          <Routes>
-          <Route exact path="student"
-            element={
-            <Student />
-            } />
-          <Route exact path="admin" element={<Admin />}>
-            <Route path='viewCourse' element={<Course/>}/>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Login />} />
+          <Route path="register" element={<Register />} />
+          <Route path="viewCourses" element={<Course />} />
+          <Route path="student" element={<Student />}>
+            <Route path="viewCourses" element={<Course />} />
           </Route>
-          </Routes>
+
+          <Route path="admin" element={<Admin />}>
+            <Route path="viewCourses" element={<Course />} />
+          </Route>
+          
+          <Route path="*" element={<NotFound />} />
+        </Routes>
       </Router>
-      
+
     </div>
   );
 }
 
 export default App;
+

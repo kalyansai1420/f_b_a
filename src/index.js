@@ -17,7 +17,7 @@ ReactDOM.render(
   <React.StrictMode>
     <ReactBreakpoints breakpoints={breakpoints}>
       <App />
-    </ReactBreakpoints>,
+    </ReactBreakpoints>
   </React.StrictMode>,
   document.getElementById('root')
 );
